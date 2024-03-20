@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  background: linear-gradient(90deg, #65e2d9, #339ecc);
+  &:hover {
+    background: linear-gradient(90deg, #339ecc, #65e2d9);
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
